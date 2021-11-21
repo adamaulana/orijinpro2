@@ -1,0 +1,205 @@
+/* import font */
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url('../fonts/Gilroy-Extrabold.otf');
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src: url('../fonts/Gilroy-Light.otf');
+}
+:root
+{
+
+    --primary : #76B4EA;     
+    --secondary : #044271;
+}
+
+/* basic navbar */
+#myNavbar{
+    padding: 20px;
+    padding-left: 7%;
+    padding-right: 10%;
+    padding-top: 52px;    
+}
+
+#myNavbar{
+    font-family: 'Poppins';
+    font-weight: 400;}
+    #myNavbar .navbar-toggle{
+        color: rgb(73, 73, 73);
+    }
+    #myNavbar .navbar-brand{
+        margin-right: 6rem;
+    }
+    #myNavbar .active{
+        font-weight:700;
+    }
+    #myNavbar .nav-link{
+        text-decoration: none;
+        font-size: 14px;
+        margin-right: 27px;
+        color:var(--secondary);
+        font-family: 'Poppins';    
+        font-weight: 400;    
+    }
+    
+    /* end of navbar */
+    /* cover */
+    #cover{
+        min-height: 135vh;        
+        padding-top: 0.1px;
+        justify-content: center;
+        background: url(../images/bg.png);
+        background-size: 100% auto;
+        background-repeat: no-repeat;}
+        #cover .cover-title{
+            width: 76%;
+            margin-top:14%;
+            text-align: center;
+            font-size: 52px;
+            font-family: 'Poppins';
+            font-weight: 700;
+            line-height: 58px;
+            color: #ffffff;
+        }
+        #cover .cover-title .darker{
+            color:var(--secondary);
+        }
+        #cover .cpt{
+            margin-top: 0px;
+            color: #ffffff;
+            width: 79%;
+            font-size: 13px;
+            font-family: 'Poppins';
+            font-weight: 400;            
+        }
+
+        /* end of cover */
+
+        /* tigaphone */
+        #tigaphone{
+            margin-top:-27%;}
+            #tigaphone img{
+                width:70%;
+            }
+        /* end of tigaphone */
+
+        #map{
+            margin-top: -9%;
+            min-height:102vh;
+        }
+        #map .map-bg{
+            background-image: url('../images/map.png');
+            background-size:cover;
+            background-repeat: no-repeat;
+        }
+        #map .finally{
+            padding-top: 14%;
+        }
+
+        #map .finally h3{
+            width: 83%;
+            margin-left:-15%;
+            margin-top:10%;
+            font-size: 49px;
+            font-family: 'Poppins';
+            font-weight: 700;
+            color: var(--secondary);
+        }
+        #map .finally p{
+            width: 83%;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 15px;
+            margin-left:-15%;
+            color: #767676;
+        }
+
+        #map .landmark img{
+            width: 95%;
+            margin-top: 10%;
+        }
+
+        /* end of map */
+        #increase{            
+            min-height:86vh;
+            margin-top:8vh;
+        }
+        #increase .increase-desc h3{
+            width: 83%;            
+            margin-left:24%;
+            font-size: 49px;
+            font-family: 'Poppins';
+            font-weight: 700;
+            color: var(--secondary);
+        }
+
+        #increase .increase-desc p{
+            width: 83%;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 15px;
+            margin-left:24%;
+            color: #767676;
+        }
+        #increase img{
+            width:100%;
+        }
+        /* end of increase */
+
+    #iso{
+        min-height:50vh;}
+        #iso .iso-bg{
+            min-height: 67vh;
+            background: url(../images/iso.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        /* end of iso */
+    #honey{
+        min-height:60vh;
+        margin-top:-42vh;}
+        #honey .bottle img{
+            width:80%;
+        }
+
+        #honey .desc h3{
+            width: 95%;                        
+            font-size: 49px;
+            font-family: 'Poppins';
+            font-weight: 700;
+            margin-top:58%;  
+            color: var(--secondary);
+        }
+
+        #honey .desc p{
+            width: 95%;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 15px;                      
+            color: #767676;
+        }
+        /* end of honey */
+    #partner{
+        min-height:60vh;        
+        }
+        #partner .desc h3{
+            width: 95%;                        
+            font-size: 49px;
+            font-family: 'Poppins';
+            font-weight: 700;
+            margin-top:20%;  
+            color: var(--secondary);
+        }
+
+        #partner .desc p{
+            width: 95%;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 15px;                      
+            color: #767676;
+        }
+        #partner img{
+            width:90%;
+        }

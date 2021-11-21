@@ -1,0 +1,76 @@
+/* import font */
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url('../fonts/Gilroy-Extrabold.otf');
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src: url('../fonts/Gilroy-Light.otf');
+}
+:root
+{
+
+    --primary : #76B4EA;     
+    --secondary : #044271;
+    --oranye : #F07642;
+}
+
+.container-fluid{
+    overflow-x: hidden;
+}
+
+.darken-p{color:var(--primary) ;}
+.darken-s{color:var(--secondary) ;}
+.btn-rounded{
+    padding: 15px 41px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 46px;
+    background-color: var(--oranye);
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.learn-more a{
+    font-size:20px;
+    color:var(--oranye);
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight:600;
+}
+
+.quotes{
+    min-height:50vh;
+}
+.quotes .box{
+    padding:0px 50px 0px 50px;
+}
+.quotes .box .box-item{
+    min-height:50vh;
+    border-radius:20px 20px 0px 0px;
+    background-color:var(--primary);
+    padding: 100px 34px;
+}
+
+.quotes .box .box-item h3{
+    width: 95%;                        
+    font-size: 49px;
+    font-family: 'Poppins';
+    font-weight: 700;    
+    color: #fff;   
+}
+
+.quotes .box .box-item p{
+    width: 60%;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;                      
+    color: #ffffff;
+}
+.quotes .box .box-item .right-dots{
+    width: 150px;
+    float: right;
+    margin-top: -140px;
+    margin-right: -86px;
+}
