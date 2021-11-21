@@ -1,0 +1,169 @@
+@media only screen and (max-width:748px){
+/* cover */
+#cover{
+    min-height: 108vh;        
+    padding-top: 0.1px;
+    justify-content: center;
+    background: url(../images/bg_cover_res.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;}
+    #cover .cover-title{
+        width: 76%;
+        margin-top: 45%;
+        text-align: center;
+        font-size: 22px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        line-height: 24px;
+        color: #ffffff;
+    }
+    #cover .cover-title .darker{
+        color:var(--secondary);
+    }
+    #cover .cpt{
+        margin-top: 0px;
+        color: #ffffff;
+        width: 79%;
+        font-size: 13px;
+        font-family: 'Poppins';
+        font-weight: 400;            
+    }
+
+    /* end of cover */
+
+    /* tigaphone */
+    #tigaphone{
+        margin-top:-27%;}
+        #tigaphone img{
+            width:70%;
+        }
+    /* end of tigaphone */
+
+    #map{
+        margin-top: -9%;
+        min-height:102vh;
+    }
+    #map .map-bg{
+        background-image: url('../images/map.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    #map .finally{
+        padding-top: 14%;
+    }
+
+    #map .finally h3{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: -5%;
+        font-size: 27px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: var(--secondary);
+    }
+    #map .finally p{
+        width: 90%;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 15px;
+        margin-left:5%;
+        color: #767676;
+    }
+
+    #map .landmark img{
+        width: 95%;
+        margin-top: 10%;
+    }
+
+    /* end of map */
+    #increase{            
+        min-height:86vh;
+        margin-top:8vh;
+    }
+    #increase .increase-desc h3{
+        width: 91%;
+        margin-left: 5%;
+        margin-top: -5%;
+        font-size: 27px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: var(--secondary);
+    }
+
+    #increase .increase-desc p{
+        width: 90%;
+        margin-left:5%;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 15px;        
+        color: #767676;        
+    }
+    #increase img{
+        width:100%;
+    }
+    /* end of increase */
+
+    #iso .iso-bg{
+        min-height: 33vh;
+        background: url(../images/iso.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* end of iso */
+#honey{
+    min-height:60vh;
+    margin-top:-42vh;}
+    #honey .bottle img{
+        width:64%;
+    }
+
+    #honey .desc h3{
+        width: 92%;
+        font-size: 26px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        margin-top: 21%;
+        margin-left: 5%;
+        color: var(--secondary);
+    }
+
+    #honey .desc p{
+        width: 95%;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 15px;                      
+        color: #767676;
+        margin-left:5%;
+    }
+    /* end of honey */
+#partner{
+    min-height:60vh;        
+    }
+    #partner .desc h3{
+        width: 95%;
+        margin-left: 5%;
+        font-size: 26px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        margin-top: 5%;
+        color: var(--secondary);
+    }
+
+    #partner .desc p{
+        width: 95%;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 15px;                      
+        color: #767676;
+        margin-left:5%;
+    }
+    #partner img{
+        width:88%;
+        margin-top:5%;
+    }
+
+
+
+
+}
