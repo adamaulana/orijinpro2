@@ -14,68 +14,6 @@
     --secondary : #044271;
 }
 
-/* basic navbar */
-#myNavbar{
-    padding: 20px;
-    padding-left: 7%;
-    padding-right: 10%;
-    padding-top: 52px;    
-}
-
-#myNavbar{
-    font-family: 'Poppins';
-    font-weight: 400;}
-    #myNavbar .navbar-toggle{
-        color: rgb(73, 73, 73);
-    }
-    #myNavbar .navbar-brand{
-        margin-right: 6rem;
-    }
-    #myNavbar .active{
-        font-weight:700;
-    }
-    #myNavbar .nav-link{
-        text-decoration: none;
-        font-size: 14px;
-        margin-right: 27px;
-        color:var(--secondary);
-        font-family: 'Poppins';    
-        font-weight: 400;    
-    }
-    
-    /* end of navbar */
-    /* cover */
-    #cover{
-        min-height: 135vh;        
-        padding-top: 0.1px;
-        justify-content: center;
-        background: url(../images/bg.png);
-        background-size: 100% auto;
-        background-repeat: no-repeat;}
-        #cover .cover-title{
-            width: 76%;
-            margin-top:14%;
-            text-align: center;
-            font-size: 52px;
-            font-family: 'Poppins';
-            font-weight: 700;
-            line-height: 58px;
-            color: #ffffff;
-        }
-        #cover .cover-title .darker{
-            color:var(--secondary);
-        }
-        #cover .cpt{
-            margin-top: 0px;
-            color: #ffffff;
-            width: 79%;
-            font-size: 13px;
-            font-family: 'Poppins';
-            font-weight: 400;            
-        }
-
-        /* end of cover */
-
         /* tigaphone */
         #tigaphone{
             margin-top:-27%;}
@@ -202,4 +140,13 @@
         }
         #partner img{
             width:90%;
+        }
+
+
+
+        /* company pages */
+    #company_concept{        
+        margin-top: -29%;}
+        #company_concept img{
+            width:100%;
         }

@@ -1,13 +1,13 @@
 @media only screen and (max-width:748px){
 /* cover */
-#cover{
+.cover{
     min-height: 108vh;        
     padding-top: 0.1px;
     justify-content: center;
     background: url(../images/bg_cover_res.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;}
-    #cover .cover-title{
+    .cover .cover-title{
         width: 76%;
         margin-top: 45%;
         text-align: center;
@@ -17,10 +17,10 @@
         line-height: 24px;
         color: #ffffff;
     }
-    #cover .cover-title .darker{
+    .cover .cover-title .darker{
         color:var(--secondary);
     }
-    #cover .cpt{
+    .cover .cpt{
         margin-top: 0px;
         color: #ffffff;
         width: 79%;

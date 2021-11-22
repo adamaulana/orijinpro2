@@ -40,6 +40,116 @@
     font-weight:600;
 }
 
+/* basic navbar */
+#myNavbar{
+    padding: 20px;
+    padding-left: 7%;
+    padding-right: 10%;
+    padding-top: 52px;    
+}
+
+#myNavbar{
+    font-family: 'Poppins';
+    font-weight: 400;}
+    #myNavbar .navbar-toggle{
+        color: rgb(73, 73, 73);
+    }
+    #myNavbar .navbar-brand{
+        margin-right: 6rem;
+    }
+    #myNavbar .active{
+        font-weight:700;
+    }
+    #myNavbar .nav-link{
+        text-decoration: none;
+        font-size: 14px;
+        margin-right: 27px;
+        color:var(--secondary);
+        font-family: 'Poppins';    
+        font-weight: 400;    
+    }
+    #myNavbar .active{
+        font-family: 'Poppins';    
+        font-weight: 700;            
+    }
+    #myNavbar .nav-link:hover{
+        font-family: 'Poppins';    
+        font-weight: 700;            
+    }
+    /* end of navbar */
+    #extendNavbar{
+        font-family: 'Poppins';
+        font-weight: 400;
+        background-color: white;
+        padding: 20px;
+        padding-left: 7%;
+        padding-right: 10%;
+        padding-top: 20px;
+        transition-duration:0.5s;
+        visibility:hidden;}
+        #extendNavbar .navbar-toggle{
+            color: rgb(73, 73, 73);
+        }
+        #extendNavbar .navbar-brand{
+            margin-right: 6rem;
+        }
+        #extendNavbar .active{
+            font-weight:700;
+        }
+        #extendNavbar .nav-link{
+            text-decoration: none;
+            font-size: 14px;
+            margin-right: 27px;
+            color:var(--secondary);
+            font-family: 'Poppins';    
+            font-weight: 400;    
+        }
+        #extendNavbar .active{
+            font-family: 'Poppins';    
+            font-weight: 700;            
+        }
+
+        #extendNavbar .nav-link:hover{
+            font-family: 'Poppins';    
+            font-weight: 700;            
+        }
+        #extendNavbar .navbar-brand img{
+            width:100px;
+        }
+        /* end of navbar */
+    
+    /* cover */
+    .cover{
+        min-height: 135vh;        
+        padding-top: 0.1px;
+        justify-content: center;
+        background: url(../images/bg.png);
+        background-size: 100% auto;
+        background-repeat: no-repeat;}
+        .cover .cover-title{
+            width: 76%;
+            margin-top:14%;
+            text-align: center;
+            font-size: 52px;
+            font-family: 'Poppins';
+            font-weight: 700;
+            line-height: 58px;
+            color: #ffffff;
+        }
+        .cover .cover-title .darker{
+            color:var(--secondary);
+        }
+        .cover .cpt{
+            margin-top: 0px;
+            color: #ffffff;
+            width: 79%;
+            font-size: 13px;
+            font-family: 'Poppins';
+            font-weight: 400;            
+        }
+
+        /* end of cover */
+
 .quotes{
     min-height:50vh;
 }
@@ -55,7 +165,7 @@
 
 .quotes .box .box-item h3{
     width: 95%;                        
-    font-size: 49px;
+    font-size: 46px;
     font-family: 'Poppins';
     font-weight: 700;    
     color: #fff;   

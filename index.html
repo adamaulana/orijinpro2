@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Orijin Plus</title>
   </head>
   <body>
@@ -37,22 +37,51 @@
               <a class="nav-link active" aria-current="page" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Company</a>
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Company</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Careers</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Careers</a>
               </li>                
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacts</a>
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacts</a>
               </li>                
           </ul>
         </div>
       </div>
-  </nav>
+    </nav>
      <!-- end of navbar -->
+
+     <!-- extend navbar -->
+     <nav class="navbar navbar-expand-md fixed-top" id="extendNavbar">
+      <div class="container-fluid" style="padding:0px; overflow-x:hidden;">
+        <a class="navbar-brand" href="#">
+            <img src="assets/images/light_logo.png" alt="Orijin Plus Logo">
+        </a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse justirify-content-end" id="navbarCollapse">
+          <ul class="navbar-nav mb-2 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="company.html" tabindex="-1" aria-disabled="true">Company</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="career.html" tabindex="-1" aria-disabled="true">Careers</a>
+              </li>                
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html" tabindex="-1" aria-disabled="true">Contacts</a>
+              </li>                
+          </ul>
+        </div>
+      </div>
+    </nav>
+     <!-- end of extend navbar -->
       <!-- content -->
      <main class="container-fluid p-0">
-        <section id="cover">
+        <section class="cover">
           <center>
           <p class="cover-title">
             Orijin Plus  <span class="darken-s">giving brands </span> access to un unprecented new, and loyal, consumer market 
@@ -67,7 +96,7 @@
         </section>
         <section id="tigaphone">
           <center>
-            <img src="assets/images/tigaphone.png" class="d-sm-none d-md-block d-none">
+            <img src="assets/images/tigaphone.png" class="d-sm-none d-md-block d-none" data-aos="fade-up" data-aos-duration="1000">
           </center>
           <center>
             <img src="assets/images/satuphone.png" class="d-sm-none d-md-none d-block">
@@ -77,10 +106,10 @@
           <div class="row">
             <div class="col-md-7 map-bg">
               <div class="landmark">
-                <img src="assets/images/land_mark.png"  alt="">
+                <img src="assets/images/land_mark.png" data-aos="fade-up" data-aos-duration="800"  alt="">
               </div>
             </div>
-            <div class="col-md-5 finally">
+            <div class="col-md-5 finally" data-aos="fade-left" data-aos-duration="1000">
               <h3>
                 Finally, exporters can truly <span class="darken-p">build a relationship</span> with their consumers…
               </h3>
@@ -97,7 +126,7 @@
         <!-- end of section map -->
         <section id="increase">
           <div class="row">
-            <div class="col-md-5 increase-desc">
+            <div class="col-md-5 increase-desc" data-aos="fade-right" data-aos-duration="1000">
               <h3>
                 Increase your revenues with actionable <span class="darken-p">data insights</span>
               </h3>
@@ -110,7 +139,7 @@
               </p>
             </div>
             <div class="col-md-7 ">
-              <img src="assets/images/increase.png" alt="">
+              <img src="assets/images/increase.png" alt="" data-aos="fade-up" data-aos-duration="800">
             </div>
           </div>
         </section>
@@ -119,7 +148,7 @@
         <section id="iso">
           <div class="row">
             <div class="col-md-1"></div>
-            <div class="col-md-10 iso-bg"></div>
+            <div class="col-md-10 iso-bg" data-aos="fade-up" data-aos-duration="800"></div>
             <div class="col-md-1"></div>
           </div>
         </section>
@@ -130,10 +159,10 @@
             <div class="col-md-1"></div>
             <div class="col-md-5 bottle">
               <center>
-                <img src="assets/images/honey.png">
+                <img src="assets/images/honey.png" data-aos="fade-right" data-aos-duration="800">
               </center>
             </div>
-            <div class="col-md-5 desc">
+            <div class="col-md-5 desc" data-aos="fade-up" data-aos-duration="1000">
               <h3>
                 Lorem ipsum dol <span class="darken-p"> sit amet </span>, consectetur...
               </h3>
@@ -147,7 +176,7 @@
         <section id="partner">
           <div class="row">
             <div class="col-md-1"></div>
-            <div class="col-md-5 desc">
+            <div class="col-md-5 desc" data-aos="fade-right" data-aos-duration="1000">
               <h3>
                 Partner with a <span class="darken-p"> global network </span> of brands...
               </h3>
@@ -158,7 +187,7 @@
               </p>                        
             </div>
             <div class="col-md-5">
-              <center><img src="assets/images/partner.png" alt=""></center>
+              <center><img src="assets/images/partner.png" alt="" data-aos="fade-up" data-aos-duration="800"></center>
             </div>
             <div class="col-md-1"></div>
           </div>
@@ -167,7 +196,7 @@
         <section class="quotes">
           <div class="row">
             <div class="col-md-1"></div>
-            <div class="col-md-10 box">
+            <div class="col-md-10 box" data-aos="fade-up" data-aos-duration="800">
               <div class="box-item">                
                 <img src="assets/images/dots.png" alt="" class="right-dots d-none d-sm-block d-md-block">
                 <center>
@@ -252,6 +281,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
     <script>
       const swiper = new Swiper('.swiper', {
         // Optional parameters
@@ -293,10 +327,10 @@
             var targetOffset = $("body").offset().top;
             if ( $w.scrollTop() > 200 ) {   
                 $('#myNavbar').css({"visibility":"hidden"});           
-                $('#myDarkNavbar').css({"visibility":"visible"});           
+                $('#extendNavbar').css({"visibility":"visible"});           
             } else {
               $('#myNavbar').css({"visibility":"visible"});   
-              $('#myDarkNavbar').css({"visibility":"hidden"});
+              $('#extendNavbar').css({"visibility":"hidden"});
             }
         });
     </script>
