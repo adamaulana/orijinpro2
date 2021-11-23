@@ -150,6 +150,22 @@
 
         /* end of cover */
 
+.desc h3{
+    width: 95%;                        
+    font-size: 49px;
+    font-family: 'Poppins';
+    font-weight: 700;    
+    color: var(--secondary);
+}
+
+.desc p{
+    width: 95%;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;                      
+    color: #767676;
+}
+
 .quotes{
     min-height:50vh;
 }

@@ -138,15 +138,44 @@
             font-size: 15px;                      
             color: #767676;
         }
+        
         #partner img{
             width:90%;
         }
 
 
 
-        /* company pages */
+    /* company pages */
     #company_concept{        
         margin-top: -29%;}
         #company_concept img{
             width:100%;
         }
+    
+    #wholesale{
+        margin-top:-5%;
+        min-height:50vh;}
+        #wholesale .wholesale-icon img{
+            width:30%;
+        }
+    #actionable{        
+        min-height:50vh;}
+        #actionable .actionable-icon img{
+            width:30%;
+        }
+    #gain{        
+        min-height:60vh;}
+        #gain .gain-icon img{
+            width:30%;
+        }    
+
+    /* end of company */
+
+    /* career pages */
+    #map-cover{
+        min-height:100vh;
+        background:url('../images/career_bg.png');
+        background-size:100%;
+        background-repeat:no-repeat;
+    }
+    /* end of career */
