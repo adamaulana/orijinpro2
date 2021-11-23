@@ -176,6 +176,118 @@
         min-height:100vh;
         background:url('../images/career_bg.png');
         background-size:100%;
-        background-repeat:no-repeat;
-    }
+        background-repeat:no-repeat;}
+
+        #map-cover h3{
+            font-size: 61px;
+            font-family: 'Poppins';
+            font-weight: 700;
+            color: var(--primary);
+            margin-top: 15%;
+            width: 77%;
+        }
+        
+        #map-cover p{
+            width: 50%;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 15px;                      
+            color: #767676;
+        }
+    
+        #career-quotes .box{
+            padding:0px;}            
+            #career-quotes .box .box-item{
+                margin-top:5%;
+                padding: 85px 45px;
+                border-radius:20px;
+            }
+            #career-quotes .box .box-item a{
+                text-decoration:none;
+            }
+            #career-quotes .box .box-item a i{
+                font-size: 30px;
+                color:var(--oranye);
+            }
+            #career-quotes .box .box-item p{                
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 15px;                      
+                color: white;
+                width:95%;
+            }
+            
+        #culture{
+            margin-bottom:5%;}
+            #culture .culture-icon img{
+            width:69px;
+            }
+            #culture .culture-icon h4{
+                font-size: 31px;
+                font-family: 'Poppins';
+                font-weight: 700;
+                color: var(--secondary);
+                margin-top: 13px;                
+                width: 77%;
+            } 
+            #culture .culture-icon p{
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 15px;                                  
+                color: var(--mygrey);            
+            } 
+
+            #culture .culture-title{
+                font-size: 61px;
+                font-family: 'Poppins';
+                font-weight: 700;
+                color: var(--primary);
+                margin-top: 6%;
+                margin-bottom:4%;
+                width: 77%;
+            }          
+           
+        #apply{
+            margin-top:1%;
+            margin-bottom:5%;}
+            #apply .apply-title{
+                margin-top:3%;
+            }
+            #apply .apply-title h3{ 
+                font-size:40px;
+                font-family: 'Poppins';
+                font-weight: 700;
+                color: var(--primary);
+            }
+            #apply .apply-title p{
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 17px;                                  
+                color: var(--mygrey);     
+            }
+
+            #apply .card-apply{
+                margin: 22px 2px 2px 2px;
+                background-color:#E7E7EB;
+                border-radius:10px;
+                padding: 35px 20px;}
+                #apply .card-apply .apply-icon{
+                    text-align: center;
+                }
+                #apply .card-apply .apply-icon img{
+                    width:80%;
+                }
+                #apply .card-apply h4{                     
+                    font-size:20px;
+                    font-family: 'Poppins';
+                    font-weight: 700;
+                    color: var(--secondary);
+                }
+                #apply .card-apply p{                     
+                    font-size:13px;
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    color: var(--mygrey);
+                }
+
     /* end of career */
