@@ -291,3 +291,41 @@
                 }
 
     /* end of career */
+
+
+    /* page contact */
+    #contact-category{
+        margin-top:-17%;}
+        #contact-category .contact-card-area{
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        #contact-category .contact-card{
+            padding: 41px 26px;
+            background-color: white;
+            border-radius: 20px;            
+            box-shadow: 0px 31px 41px rgb(0 0 0 / 20%);
+        }
+        #contact-category .contact-card img{
+            margin-bottom:20px;
+        }
+        #contact-category .contact-card h4{
+            font-size:20px;
+            font-family: 'Poppins';
+            font-weight: 700;
+            color: var(--secondary);
+        }
+        #contact-category .contact-card p{
+            font-size:13px;
+            font-family: 'Poppins';
+            font-weight: 400;
+            color: var(--mygrey);
+        }        
+        #contact-category .contact-card a{
+            text-decoration:none;
+            font-size:13px;
+            font-family: 'Poppins';
+            font-weight: 700;
+            color: var(--oranye);
+        }
+    /* end of page contact */
