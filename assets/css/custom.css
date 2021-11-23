@@ -295,7 +295,7 @@
 
     /* page contact */
     #contact-category{
-        margin-top:-17%;}
+        margin-top:-20%;}
         #contact-category .contact-card-area{
             padding-left: 3%;
             padding-right: 3%;
@@ -327,5 +327,40 @@
             font-family: 'Poppins';
             font-weight: 700;
             color: var(--oranye);
+        }
+    #form-contacts{
+        min-height:50vh;
+        margin-top:4%;
+        margin-bottom:7%;}
+        #form-contacts .form-contacts-area{
+            padding-left: 6%;
+            padding-right: 6%;
+        } 
+        #form-contacts .form-contacts-area .form-contacts-box{
+            padding:37px;
+            background-color: #FCFCFC;
+            border:1px solid #CECFD5;
+            border-radius:10px;
+        }
+        #form-contacts .form-contacts-area .form-contacts-box h3{
+            font-size:37px;
+            color: var(--primary);
+            font-family: 'Poppins';
+            font-weight:700;
+        }
+        #form-contacts .form-contacts-area .form-contacts-box p{
+            font-size:13px;
+            font-family: 'Poppins';
+            font-weight: 400;
+            color: var(--mygrey);
+        }        
+        #form-contacts .form-contacts-area .form-contacts-box label{
+            font-size:13px;
+            font-family: 'Poppins';
+            font-weight: 400;
+            color: var(--mygrey);
+        }
+        #form-contacts .form-contacts-area .form-contacts-box input{
+            border-radius:10px;
         }
     /* end of page contact */

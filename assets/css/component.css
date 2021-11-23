@@ -22,6 +22,7 @@
 
 .darken-p{color:var(--primary) ;}
 .darken-s{color:var(--secondary) ;}
+.red-required{color:red ;}
 .btn-rounded{
     padding: 15px 41px;
     font-size: 16px;
@@ -31,6 +32,7 @@
     text-decoration: none;
     font-family: 'Poppins';
     font-weight: 700;
+    border:0px;
 }
 
 .learn-more a{
