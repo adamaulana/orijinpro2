@@ -364,3 +364,16 @@
             border-radius:10px;
         }
     /* end of page contact */
+
+    /* page faq */
+    #faq-title .input-group{
+        width:60%;        
+        border:0px;
+    }
+
+    #faq-title .input-group .input-group-append button{
+        border:0px;
+        background-color: white;
+        color: #000;        
+    }
+    /* end of page faq */
