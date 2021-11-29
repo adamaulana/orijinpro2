@@ -367,13 +367,141 @@
 
     /* page faq */
     #faq-title .input-group{
-        width:60%;        
+        width:20%;        
         border:0px;
+        margin-bottom:5%;
     }
 
     #faq-title .input-group .input-group-append button{
+        border: 0px;
+        background-color: white;
+        color: #000;
+        padding: 8px 16px; 
+    }
+
+    #faq-content{
+        padding-left:6%;
+        padding-right:6%;        
+    }
+    #faq-content .card-faq-content{
+        padding:53px;
+        min-height:50vh;
+        background-color: white;
+        margin-top:-29%;
+        border-radius:10px;
+    }
+    #faq-content .accordion-header button{
+        color:var(--secondary);
         border:0px;
         background-color: white;
-        color: #000;        
+        font-size:32px;
+        font-weight:700;
+        box-shadow:none;
+    }
+    #faq-content .accordion-item{
+        border:0px;
+    }
+    #faq-content .accordion-body{
+        color:#54576D; 
     }
     /* end of page faq */
+     
+    /* page press kit */
+    #press-cover{
+        min-height:50vh;
+        padding-top:0.1px;
+        padding-left:10%;
+        padding-right:10%;
+    } 
+    #press-cover .press-kit-title{
+        font-size:54px;
+        font-family: 'Poppins';
+        font-weight:700;
+        color: var(--secondary);
+        margin-top:15%;
+    }
+
+    .presskit-component{
+        min-height:50vh;
+        padding-top:0.1px;
+        padding-left:10%;
+        padding-right:10%;
+        margin-top:4%
+    }
+
+    .presskit-component h4{
+        font-size:20px;
+        font-family: 'Poppins';
+        font-weight:700;
+        color: var(--secondary);        
+    }
+    .presskit-card{
+        padding:5px;
+    }
+    .presskit-card img{
+        width:100%;
+        margin-bottom:20px;        
+    }
+    .presskit-card-sm-title{
+        font-family: 'Poppins';
+        font-weight:700;
+        font-size:20px;
+        color:var(--secondary);
+    }
+
+    .presskit-card-lg-title{
+        font-family: 'Poppins';
+        font-weight:700;
+        font-size:27px;
+        color:var(--secondary);
+    }    
+    .presskit-card .btn-rounded{
+        padding: 13px 27px;
+        font-size: 13px;
+        color: #fff;
+        border-radius: 46px;
+        background-color: var(--oranye);
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-weight: 700;
+        border: 0px;
+    }
+
+    .presskit-card .transparent{
+        background-color: transparent;
+        color: var(--secondary);
+        border: 1px solid  var(--secondary);
+    }
+     /* end of page press kit */
+
+
+     /* privacy policy */
+     
+     #pripol-content{
+         padding-left:10%;
+         padding-right:10%;
+         margin-top:-28%;
+         margin-bottom: 10%;
+     }
+     #pripol-content .pripol-card{
+         background-color:white;
+         padding:  53px;
+         border-radius:20px;
+         box-shadow: 0px 31px 41px rgb(0 0 0 / 20%);
+     }
+
+     #pripol-content .pripol-card h4{
+        color:var(--secondary);
+        font-size:32px;
+        font-weight:700;        
+     }
+
+     #pripol-content .pripol-card p{
+        font-size:13px;
+        color:#54576D; 
+     }
+     #pripol-content .pripol-card ul li{
+        font-size:13px;
+        color:#54576D; 
+     }
+     /* end of privay policy */

@@ -183,11 +183,11 @@
 }
 
 .quotes .box .box-item h3{
-    width: 95%;                        
-    font-size: 46px;
+    width: 95%;
+    font-size: 51px;
     font-family: 'Poppins';
-    font-weight: 700;    
-    color: #fff;   
+    font-weight: 700;
+    color: #fff;
 }
 
 .quotes .box .box-item p{
@@ -221,7 +221,7 @@
     width:80%;
     background-color:#A3A3A3;
 }
-.footer .cpy{
+.footer .cpy{   
     font-family: 'Poppins';
     font-weight:400;
     color:rgb(55, 55, 55);
@@ -234,11 +234,15 @@
     color: var(--oranye);
     font-weight:600;
 }
+
+.footer .whowe .title .linkedin{
+    color:var(--primary)
+}
 .footer .whowe .val{
     width:80%;
     font-family: 'Poppins';
     font-weight:400;
-    color:rgb(55, 55, 55);
+    color: var(--secondary);
     font-size:14px;
 }
 
@@ -250,12 +254,12 @@
 }
 .footer .list ul{
     list-style:none;
-    padding:0px;
+    padding:0px;    
 }
 .footer .list ul li a{
     font-family: 'Poppins';
     font-weight:400;
-    color:rgb(55, 55, 55);
+    color: var(--secondary);
     font-size:14px;
     text-decoration: none;    
 }
@@ -269,13 +273,14 @@
 }
 
 .footer .logo select{
-    font-family:'Poppins';
-    color:black;
-    background-color: #A3A3A3;
-    border-radius:20px;
-    padding:10px 20px;
-    border:0px;
-    font-weight:700;    
+    font-family: 'Poppins';
+    color: black;
+    background-color: #dbdbdb;
+    border-radius: 20px;
+    padding: 4px 14px;
+    border: 0px;
+    font-size: 13px;
+    font-weight: 700;    
 }
 .footer .logo a{
     font-family:'Poppins';
