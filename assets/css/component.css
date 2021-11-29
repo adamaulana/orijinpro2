@@ -13,7 +13,8 @@
     --primary : #76B4EA;     
     --secondary : #044271;
     --oranye : #F07642;
-    --mygrey : #54576D;
+    --mygrey : #044271;
+    /* --mygrey : #54576D; */
 }
 
 .container-fluid{
@@ -123,7 +124,7 @@
     
     /* cover */
     .cover{
-        min-height: 135vh;        
+        min-height: 124vh;      
         padding-top: 0.1px;
         justify-content: center;
         background: url(../images/bg.png);

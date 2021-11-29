@@ -16,9 +16,10 @@
 
         /* tigaphone */
         #tigaphone{
-            margin-top:-27%;}
+            position: relative;
+            margin-top: -26%;}
             #tigaphone img{
-                width:70%;
+                width:59%;
             }
         /* end of tigaphone */
 
@@ -147,9 +148,9 @@
 
     /* company pages */
     #company_concept{        
-        margin-top: -29%;}
+        margin-top: -25%;}
         #company_concept img{
-            width:100%;
+            width:76%;
         }
     
     #wholesale{
@@ -362,6 +363,10 @@
         }
         #form-contacts .form-contacts-area .form-contacts-box input{
             border-radius:10px;
+        }
+
+        #form-contacts .form-contacts-area .form-contacts-box input::placeholder{
+            color: rgba(0, 0, 0, 0.3);
         }
     /* end of page contact */
 
