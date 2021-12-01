@@ -51,7 +51,7 @@
             font-weight: 400;
             font-size: 15px;
             margin-left:-15%;
-            color: #767676;
+            color: var(--secondary);
         }
 
         #map .landmark img{
@@ -79,7 +79,7 @@
             font-weight: 400;
             font-size: 15px;
             margin-left:24%;
-            color: #767676;
+            color: var(--secondary);
         }
         #increase img{
             width:100%;
@@ -117,7 +117,7 @@
             font-family: 'Poppins';
             font-weight: 400;
             font-size: 15px;                      
-            color: #767676;
+            color: var(--secondary);
         }
         /* end of honey */
     #partner{
@@ -137,7 +137,7 @@
             font-family: 'Poppins';
             font-weight: 400;
             font-size: 15px;                      
-            color: #767676;
+            color: var(--secondary);
         }
         
         #partner img{
@@ -193,7 +193,7 @@
             font-family: 'Poppins';
             font-weight: 400;
             font-size: 15px;                      
-            color: #767676;
+            color: var(--secondary);
         }
     
         #career-quotes .box{
@@ -407,7 +407,7 @@
         border:0px;
     }
     #faq-content .accordion-body{
-        color:#54576D; 
+        color:var(--secondary); 
     }
     /* end of page faq */
      
@@ -428,6 +428,7 @@
 
     .presskit-component{
         min-height:50vh;
+        margin-bottom:10%;
         padding-top:0.1px;
         padding-left:10%;
         padding-right:10%;
