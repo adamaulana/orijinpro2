@@ -164,6 +164,163 @@
     }
 
 
+    #wholesale {
+        margin-top: -5%;
+        min-height: 50vh;
+        padding: 10%;
+    }
+    .desc h3 {
+        width: 95%;
+        font-size: 40px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        text-align: center;
+        margin-top: 29px;
+        color: var(--secondary);
+    }
+    .desc p {
+        width: 95%;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 15px;
+        color: #767676;
+        text-align: justify;
+    }
 
+    #actionable {
+        min-height: 50vh;
+        padding: 10%;
+    }
+
+    #gain {
+        min-height: 60vh;
+        padding: 8%;
+    }
+    #company_concept {
+        margin-top: -16%;
+    }
+
+    #company_concept img {
+        width: 100%;
+    }
+
+
+    #map-cover {
+        min-height: 95vh;
+        background: url(../images/career_bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 7%;
+    }
+
+    #map-cover p {
+        width: 100%;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 15px;
+        color: var(--secondary);
+    }
+
+    #map-cover h3 {
+        font-size: 28px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: var(--primary);
+        margin-top: 38%;
+        width: 100%;
+    }
+
+    #culture {
+        margin-bottom: 5%;
+        padding: 7%;
+    }
+
+    #culture .culture-title {
+        font-size: 38px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: var(--primary);
+        margin-top: 6%;
+        margin-bottom: 4%;
+        width: 77%;
+    }
+
+    #apply {
+        margin-top: 1%;
+        margin-bottom: 5%;
+        padding: 7%;
+    }
+
+    #apply .card-apply .apply-icon img {
+        width: 56%;
+        margin-bottom: 21px;
+    }
+
+    #contact-category {
+        margin-top: -31%;
+    }
+
+    #contact-category .contact-card-area {
+        padding-left: 11%;
+        padding-right: 3%;
+    }
+
+    #contact-category .contact-card {
+        padding: 41px 26px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 31px 41px rgb(0 0 0 / 20%);
+        margin-bottom: 21px;
+    }
+
+    #faq-title .input-group {
+        width: 80%;
+        border: 0px;
+        margin-bottom: 11%;
+    }
+
+    #faq-content .accordion-header button {
+        color: var(--secondary);
+        border: 0px;
+        background-color: white;
+        font-size: 25px;
+        font-weight: 700;
+        box-shadow: none;
+    }
+
+    #faq-content .card-faq-content {
+        padding: 16px;
+        min-height: 50vh;
+        background-color: white;
+        margin-top: -29%;
+        border-radius: 10px;
+    }
+    #press-cover .press-kit-title {
+        font-size: 43px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        color: var(--secondary);
+        margin-top: 72%;
+    }
+
+    .presskit-card {
+        padding: 5px;
+        margin-bottom: 47px;
+    }
+
+    .presskit-card .btn-rounded {
+        padding: 13px 27px;
+        font-size: 13px;
+        color: #fff;
+        border-radius: 46px;
+        background-color: var(--oranye);
+        text-decoration: none;
+        font-family: 'Poppins';
+        font-weight: 700;
+        border: 0px;
+        width: 100%;
+        margin-bottom: 9px;
+    }
 
 }
