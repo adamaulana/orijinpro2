@@ -261,6 +261,15 @@
         text-align: left;
     }
 
+    #contact {
+        min-height: 111vh;
+        padding-top: 0.1px;
+        justify-content: center;
+        background: url(../images/bg.png);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+
     #contact-category {
         margin-top: -31%;
     }
