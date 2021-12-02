@@ -151,7 +151,7 @@
 
     /* company pages */
     #company_concept{        
-        margin-top: -25%;}
+        margin-top: -22%;}
         #company_concept img{
             width:76%;
         }
@@ -474,7 +474,7 @@
         color:var(--secondary);
     }    
     .presskit-card .btn-rounded{
-        padding: 13px 27px;
+        padding: 13px 25px;
         font-size: 13px;
         color: #fff;
         border-radius: 46px;

@@ -33,7 +33,7 @@
 
     /* tigaphone */
     #tigaphone{
-        margin-top:-27%;}
+        margin-top:-100px;}
         #tigaphone img{
             width:70%;
         }
@@ -67,7 +67,7 @@
         font-weight: 400;
         font-size: 15px;
         margin-left:5%;
-        color: #767676;
+        color: var(--secondary);
     }
 
     #map .landmark img{
@@ -96,7 +96,7 @@
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 15px;        
-        color: #767676;        
+        color: var(--secondary);        
     }
     #increase img{
         width:100%;
@@ -123,8 +123,7 @@
         font-size: 26px;
         font-family: 'Poppins';
         font-weight: 700;
-        margin-top: 21%;
-        margin-left: 5%;
+        margin-top: 21%;        
         color: var(--secondary);
     }
 
@@ -132,17 +131,17 @@
         width: 95%;
         font-family: 'Poppins';
         font-weight: 400;
-        font-size: 15px;                      
-        color: #767676;
-        margin-left:5%;
+        font-size: 15px;
+        color: var(--secondary);
+        /* margin-left: 5%; */
+        padding: 5%;;
     }
     /* end of honey */
 #partner{
     min-height:60vh;        
     }
     #partner .desc h3{
-        width: 95%;
-        margin-left: 5%;
+        width: 95%;        
         font-size: 26px;
         font-family: 'Poppins';
         font-weight: 700;
@@ -154,9 +153,10 @@
         width: 95%;
         font-family: 'Poppins';
         font-weight: 400;
-        font-size: 15px;                      
-        color: #767676;
-        margin-left:5%;
+        font-size: 15px;
+        color: var(--secondary);
+        /* margin-left: 5%; */
+        padding: 5%;
     }
     #partner img{
         width:88%;
@@ -183,7 +183,7 @@
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 15px;
-        color: #767676;
+        color: var(--secondary);
         text-align: justify;
     }
 
@@ -197,7 +197,7 @@
         padding: 8%;
     }
     #company_concept {
-        margin-top: -16%;
+        margin-top: -18%;
     }
 
     #company_concept img {
@@ -342,4 +342,30 @@
 
     }
 
+}
+
+
+@media only screen and (min-height:812px){
+    #tigaphone{
+        margin-top:-40%;}
+    .cover{
+        min-height: 90vh;      
+        padding-top: 0.1px;
+        justify-content: center;
+        background: url(../images/bg.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;}
+    
+    #contact {
+        min-height: 68vh;
+        padding-top: 0.1px;
+        justify-content: center;
+        background: url(../images/bg.png);
+        background-size: 100% 100%;
+        /* background-repeat: no-repeat; */
+    }
+
+    #company_concept {
+        margin-top: -31%;
+    }
 }
