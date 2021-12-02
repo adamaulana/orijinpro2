@@ -253,8 +253,12 @@
     }
 
     #apply .card-apply .apply-icon img {
-        width: 56%;
+        width: 27%;
         margin-bottom: 21px;
+    }
+
+    #apply .card-apply .apply-icon {
+        text-align: left;
     }
 
     #contact-category {
@@ -310,8 +314,8 @@
     }
 
     .presskit-card .btn-rounded {
-        padding: 13px 27px;
-        font-size: 13px;
+        padding: 11px 27px;
+        font-size: 9px;
         color: #fff;
         border-radius: 46px;
         background-color: var(--oranye);
@@ -319,8 +323,14 @@
         font-family: 'Poppins';
         font-weight: 700;
         border: 0px;
-        width: 100%;
         margin-bottom: 9px;
+    }
+
+    .presskit-card .transparent {
+        background-color: transparent;
+        color: var(--secondary);
+        border: 1px solid  var(--secondary);
+
     }
 
 }
