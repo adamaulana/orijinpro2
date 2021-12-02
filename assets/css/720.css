@@ -1,4 +1,6 @@
 @media only screen and (max-width:748px){
+
+
 /* cover */
 .cover{
     min-height: 108vh;        
@@ -372,5 +374,21 @@
 
     .footer .logo img{
         margin-bottom:47px;
+    }
+
+    #map-cover {
+        min-height: 73vh;
+        background: url(../images/career_bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 7%;
+    }
+
+    #pripol-content {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: -58%;
+        margin-bottom: 10%;
     }
 }
