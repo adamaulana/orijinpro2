@@ -61,6 +61,9 @@
     #myNavbar .navbar-brand{
         margin-right: 6rem;
     }
+    #myNavbar .navbar-brand img{
+        width:100px;
+    }
     #myNavbar .active{
         font-weight:700;
     }
@@ -84,11 +87,9 @@
     #extendNavbar{
         font-family: 'Poppins';
         font-weight: 400;
-        background-color: white;
-        padding: 20px;
+        background-color: white;        
         padding-left: 7%;
-        padding-right: 10%;
-        padding-top: 20px;
+        padding-right: 10%;        
         transition-duration:0.5s;
         visibility:hidden;}
         #extendNavbar .navbar-toggle{
