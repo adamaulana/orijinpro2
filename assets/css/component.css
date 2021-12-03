@@ -133,7 +133,7 @@
         background-repeat: no-repeat;}
         .cover .cover-title{
             width: 76%;
-            margin-top:14%;
+            margin-top:6    1%;
             text-align: center;
             font-size: 52px;
             font-family: 'Poppins';
@@ -300,8 +300,11 @@
         padding-top: 7px;
         background-color:white;
     }
-    }
+    
     #myNavbar .navbar-toggler{
+        color:var(--mygrey);
+    }
+    #extendNavbar .navbar-toggler{
         color:var(--mygrey);
     }
     .learn-more a{
