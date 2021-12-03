@@ -189,7 +189,7 @@
         font-weight: 400;
         font-size: 15px;
         color: var(--secondary);
-        text-align: justify;
+        text-align: left;
     }
 
     #actionable {
