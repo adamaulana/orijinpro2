@@ -1,0 +1,25 @@
+@media only screen and (max-width:1450px) and (min-height:1000px){
+
+    .cover{
+        min-height: 81vh;      
+        padding-top: 0.1px;
+        justify-content: center;
+        background: url(../images/bg.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;}
+    #map-cover {
+        min-height: 64vh;
+        background: url(../images/career_bg.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #contact {
+        min-height: 76vh;
+        padding-top: 0.1px;
+        justify-content: center;
+        background: url(../images/bg.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
